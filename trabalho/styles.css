@@ -1,0 +1,219 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #1a1a1a;
+    color: white;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: blue;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.profile-icon {
+    font-size: 24px;
+}
+
+/* Layout Principal */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    background:black;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    color: #ffcc00;
+}
+
+/* Barra de Pesquisa */
+.search-container {
+    display: flex;
+    background: #444;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.search-container input {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    background: none;
+    color: white;
+    outline: none;
+}
+
+.search-container button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Lista de Filmes */
+.movies {
+    padding: 20px;
+}
+
+.movie-list {
+    display: flex;
+}
+
+.movie {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    margin: 10px;
+    opacity: 1.0;
+    border: 1px solid black;
+}
+
+.movie2 {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    margin-top:-110px;
+    margin-left: 350px;
+    opacity: 1.0;
+    border: 1px solid black;
+}
+
+.movie3 {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    margin-top:-100px;
+    margin-left: 700px;
+    opacity: 1.0;
+    border: 1px solid black;
+}
+
+.ação.html{
+    color: white;
+    background:black;
+}
+
+.ação.html header{
+    color:red;
+    background:black;
+    margin-left:500px;
+    font-size:35px;
+}
+
+.ação-filmes{
+    display:flex;
+    margin-top:15px;
+    margin-left:7px;
+    width:75px;
+    height:50px;
+    color:red;
+    font-size: 15px;
+}
+
+.sinopse-filme {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+}
+
+.sinopse-filme img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.conteudo-sinopse {
+    flex: 1;
+}
+
+.conteudo-sinopse h2 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.conteudo-sinopse p {
+    font-size: 16px;
+    color: white;
+    line-height: 1.6;
+}
+
+.sinopse-filme p1{
+    color:white;
+}
+
+.sinopse-filme p2{
+    color:white;
+}
+
+.sinopse-filme p3{
+    color:red;
+}
+
+.terror-filmes{
+    font-size:20px;
+    font-family:Rubik Glitch;
+}
+
+.terror-texto{
+    color:black;
+}
+
+.romance-texto{
+    font-size:35px;
+    font-family:Lavishly Yours;
+}
+
+.ficção-texto{
+    font-size:20px;
+    font-family:Orbitron;
+}
+
+.comédia-texto{
+    font-size:20px;
+    font-family: Henny Penny;
+}
+
+.anime-texto{
+    font-size:35px;
+    font-family:Condiment;
+}
+
+.familia-texto{
+    font-size:20px;
+    font-family:Caveat Brush;
+}

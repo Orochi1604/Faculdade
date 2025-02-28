@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmezando</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="profile-icon">👤</div>
+        <h1>FILMEZANDO</h1>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h3>GÊNEROS</h3>
+            <ul>
+                <a href="ação.html" target="_blank">
+                <li onclick>Ação</li>
+                </a>
+                <a href="terror.html" target="_blanck">
+                <li onclick>Terror</li>
+            </a>
+            <a href="romance.html" target="_blank">
+                <li onclick=>Romance</li>
+            </a>
+            <a href="ficção.html" target="_blank">
+                <li onclick>Ficção Científica</li>
+            </a>
+            <a href="comédia.html" target="_blank">
+                <li onclick>Comédia</li>
+            </a>
+            <a href="anime.html">
+                <li onclick>Anime</li>
+            </a>
+            <a href="familía.html">
+                <li onclick>Família</li>
+            </a>
+            </ul>
+        </aside>
+
+        <main>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Buscar...">
+                <button onclick="searchMovies()">🔍</button>
+            </div>
+
+            <section class="movies">
+                <h3>LANÇAMENTOS</h3>
+                <div class="youtubemovie-list">
+                    <div class="movie">
+                        <a href="https://www.youtube.com/watch?v=b0KQr6INsw8">
+                            <img src="./image_corvo.webp" alt="corvo">
+                        </a>
+                    </div>
+                    <div class="movie2">
+                        <a href="https://www.youtube.com/watch?v=ZOY7OHZF8Go">
+                            <img src="./image_terrifier.webp" alt="terrifier">
+                        </a>
+                    </div>
+                    <div class="movie3">
+
+                        <a href="https://www.youtube.com/watch?v=zCPO9CfdlNk">
+                            <img src="./image_gladiador.webp" alt="gladiador">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
